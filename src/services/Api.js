@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const TOKEN = "JWT_TOKEN";
-const API_URL = process.env.VUE_APP_API;
+const API_URL = "https://reverse-lookups.herokuapp.com/";
 
 async function getUrl(url) {
     return axios.get(url, { 
